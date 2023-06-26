@@ -1,0 +1,178 @@
+
+/* GMAIL BLOCK */
+
+.gmail_block {
+    background: black;
+    padding: 100px 0;
+}
+
+.inner_gmail_block {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid orange;
+    height: 300px;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.form_gmail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_gmail button {
+    width: 100%;
+    margin: 20px 0;
+}
+
+/* MOVE BLOCK */
+
+.move_block {
+    background: black;
+    padding: 100px 0;
+}
+
+.parent_block {
+    height: 500px;
+    width: 500px;
+    border: 2px solid orange;
+    position: relative;
+    margin: 0 auto;
+}
+
+.child_block {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: red;
+}
+
+.inner_move_block {
+    margin-top: 50px;
+}
+
+/* STOP WATCH */
+
+.time {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    height: 100px;
+    width: 100%;
+    border-bottom: 1px solid orange;
+    margin-top: 40px;
+}
+
+.time_block {
+    display: flex;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+.stopwatch {
+    padding: 100px 0;
+    background: black;
+}
+
+
+
+.time_buttons {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.block_slider {
+    background: black;
+}
+
+.slider_hw {
+    position: relative;
+    width: 500px;
+    height: 700px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.slider_hw img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+
+}
+
+.slider_hw img.active {
+    opacity: 1;
+}
+
+.modalHw {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-contentHW {
+    background-color: black;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.currency_block {
+    display: flex;
+    background: black;
+    height: 200px;
+}
+
+.currency_block label{
+    margin: 0 10px;
+}
+
+.currency_block #fromCurrency{
+    margin: 0 10px;
+    background: black;
+    font-size: medium;
+    border: 2px solid orange;
+    color: white;
+}
+
+.currency_block #toCurrency{
+    margin: 0 10px;
+    background: black;
+    font-size: medium;
+    border: 2px solid orange;
+    color: white;
+}
+
+#result{
+    margin: 25px;
+}
+.currency_block button{
+    margin: 0 10px;
+    background: black;
+    font-size: medium;
+    border: 2px solid orange;
+    color: white;
+    padding: 3px;
+}
+
+.currency_block h3{
+    margin-bottom: 30px;
+}
